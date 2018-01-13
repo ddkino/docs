@@ -64,5 +64,13 @@ export PATH=$PATH:$SCALA_HOME/bin
 sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-
+#android
 sudo apt-get install android-tools-adb android-tools-fastboot
+
+#protocol buffer
+```
+download from 
+https://github.com/google/protobuf/releases/tag/v3.5.1
+./configure && make && sudo make install
+```
+
