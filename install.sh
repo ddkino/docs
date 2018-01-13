@@ -72,5 +72,6 @@ sudo apt-get install android-tools-adb android-tools-fastboot
 download from 
 https://github.com/google/protobuf/releases/tag/v3.5.1
 ./configure && make && sudo make install
+go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
 ```
 
