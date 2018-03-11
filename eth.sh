@@ -8,3 +8,6 @@ sudo apt-get install ethereum
 # docker version
 # image : ethereum/client-go:latest
 # ethereum/client-go:alltools-latest
+
+
+sudo apt-get install solc
