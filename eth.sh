@@ -23,14 +23,14 @@ https://mg.mail.yahoo.com/neo/launch?.rand=7e4nvrgnv91d0#
 
 #Remix-ide has been published as an npm module:
 
-npm install remix-ide -g
+yarn global add remix-ide
 remix-ide
 
 #Or if you want to clone the github repository:
 
 git clone https://github.com/ethereum/remix-ide.git
 cd remix-ide
-npm install
-npm run build && npm run serve
+yarn install
+yarn run build && yarn run serve
 
-
+yarn global add ganache-cli
