@@ -79,3 +79,6 @@ https://github.com/google/protobuf/releases/tag/v3.5.1
 go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
 ```
 
+#git kraken
+sudo apt install curl libcurl3 libgnome-keyring-common libgnome-keyring-dev
+
