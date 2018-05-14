@@ -1,0 +1,15 @@
+alias dk='docker'
+alias dk-i='docker images'
+alias dk-i-rm='docker rmi $(docker images -q --filter "dangling=true")'
+alias dk-i-rmf='docker rmi -f $(docker images -q --filter "dangling=true")'
+alias dk-c-rmf="docker container ls -a | grep "Exited" | awk '{print $1}' | xargs docker rm -f"
+alias dk-ps='docker ps -a'
+alias dk-cp='docker-compose'
+alias dk-s='docker service'
+alias dk-sw='docker swarm'
+alias dk-m='docker-machine'
+alias python='python3'
+#git
+alias ggi='git'
+alias ggi-ck='git checkout'
+alias ggi-br='git branch'
