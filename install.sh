@@ -40,16 +40,6 @@ sudo apt-get install pulseaudio-module-bluetooth
 pactl load-module module-bluetooth-discover
 sudo apt-get install xubuntu-restricted-extras
 
-#### Machine Learning
-# install anaconda which contains all needed packages, see below ( notebook scikit learn jupyter etc .......)
-sudo apt-get install python-scipy python-numpy python-matplotlib ipython  python-pandas python-sympy python-nose
-pip install -U scikit-learn
-
-#jupyter / ipython-notebook deprecated
-# required  anaconda
-# https://www.anaconda.com/download/#linux
-# https://jupyter.org/
-python3 -m pip install jupyter
 
 #yarn 
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
