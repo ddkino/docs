@@ -40,7 +40,10 @@ conda install -c anaconda notebook
 conda install -c conda-forge pyspark 
 
 
+## pyspark + anaconda
 
+change PYSPARK env 
 
 export PYSPARK_DRIVER_PYTHON=jupyter
 export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+export PYSPARK_PYTHON=$ANACONDA_ROOT/bin/python
