@@ -14,9 +14,9 @@ requirements jupyter-client >= 5.5.0
 pip install toree
 or
 pip install https://dist.apache.org/repos/dist/dev/incubator/toree/0.2.0/snapshots/dev1/toree-pip/toree-0.2.0.dev1.tar.gz
-# for jupyter
+### for jupyter
 jupyter toree install --spark_home=/usr/local/bin/apache-spark/
-# for anaconda use :
+### for anaconda use :
 https://anaconda.org/hyoon/toree
 
 
