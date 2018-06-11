@@ -33,3 +33,7 @@ pip install -U scikit-learn
  https://www.anaconda.com/download/#linux
  https://jupyter.org/
 python3 -m pip install jupyter
+
+
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
