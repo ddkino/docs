@@ -21,7 +21,7 @@ https://anaconda.org/hyoon/toree
 
 
 
-## anaconda
+## anaconda 
 
 #### install anaconda which contains all needed packages, see below ( notebook scikit learn jupyter etc .......)
 sudo apt-get install python-scipy python-numpy python-matplotlib ipython  python-pandas python-sympy python-nose
@@ -33,6 +33,13 @@ pip install -U scikit-learn
  https://www.anaconda.com/download/#linux
  https://jupyter.org/
 python3 -m pip install jupyter
+
+### packages from anconda cloud
+
+conda install -c anaconda notebook
+conda install -c conda-forge pyspark 
+
+
 
 
 export PYSPARK_DRIVER_PYTHON=jupyter
