@@ -1,5 +1,10 @@
-#EXPO Kit
-no natives modules full JS 
-pro:
--easy to test and deploy
--hasslefree update modules, no break dependencies
+# EXPO Kit
+  no natives modules full JS
+  
+  pro:
+  - easy to test and deploy
+  - hasslefree update modules, no break dependencies
+  
+  cons:
+  - modules are not the latest
+  - limited modules
