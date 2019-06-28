@@ -72,3 +72,8 @@ go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
 #git kraken
 sudo apt install curl libcurl3 libgnome-keyring-common libgnome-keyring-dev
 
+
+#zsh highlight color
+https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
