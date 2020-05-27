@@ -1,7 +1,7 @@
 #https://gist.github.com/rajmani1995/cae8a16056e44bd901a6d17d8f1a7fbf
 
 #utilities
-htop curl vim git git-cola
+htop curl vim git git-cola gparted
 
 #zsh
 sudo apt-get install zsh
