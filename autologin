@@ -1,0 +1,1 @@
+sudo vi  /etc/lightdm/lightdm.conf
