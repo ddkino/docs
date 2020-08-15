@@ -6,3 +6,6 @@ mk-build-deps
 sudo gdebi woeusb-build-deps_*.deb
 dpkg-buildpackage -uc -b
 sudo gdebi ../woeusb*.deb
+
+
+run woeusbgui
