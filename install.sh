@@ -16,6 +16,15 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 
+#docker pre
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+
 #docker
 sudo apt-get remove docker docker-engine docker
 sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
