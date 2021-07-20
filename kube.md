@@ -1,5 +1,6 @@
 ### install virtualbox
 sudo apt-get install virtualbox
+sudo apt-get install conntrack
 
 
 ### install minikube
@@ -18,4 +19,7 @@ Voici un moyen simple d'ajouter l'exécutable Minikube à votre path :
 
 
 ### run
+- minikube delete --all --purge
 - minikube start --driver=virtualbox --kubernetes-version=v1.21.2 --disk-size=5GB
+
+`Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default`
