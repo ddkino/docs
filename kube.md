@@ -23,3 +23,17 @@ Voici un moyen simple d'ajouter l'exécutable Minikube à votre path :
 - minikube start --driver=virtualbox --kubernetes-version=v1.21.2 --disk-size=5GB
 
 `Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default`
+
+098\
+\\
+### azure
+- curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+
+### autocomplete
+- ~/.zshrc
+- source /etc/bash_completion.d/azure-cli
+- source <(kubectl completion zsh)
+- alias k=kubectl
+- complete -F __start_kubectl k
+- 
