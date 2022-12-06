@@ -9,7 +9,7 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 chsh -s `which zsh`
 
 #nvm node
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 
 #java
 sudo add-apt-repository ppa:webupd8team/java
