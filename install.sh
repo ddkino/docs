@@ -5,7 +5,7 @@ htop curl vim git git-cola gparted gnome-disk-utility
 
 #zsh
 sudo apt-get install zsh
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s `which zsh`
 
 #nvm node
