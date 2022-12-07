@@ -9,3 +9,10 @@ sudo apt install python3.9
 
 # check
 ls /usr/bin/python3*
+#.....
+
+# install pip for specific version
+sudo apt-get install python3.9-dev python3.9-venv
+ 
+ 
+ 
