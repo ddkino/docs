@@ -26,4 +26,5 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
 
 sudo update-alternatives --config python
 
-sudo apt-get install python-pip
+# important !!!
+sudo apt-get install python-pip libpq-dev
