@@ -4,15 +4,15 @@
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-cache policy python(version)
-sudo apt-cache policy python3.9
-sudo apt install python3.9
+sudo apt-cache policy python3.8
+sudo apt install python3.8
 
 # check
 ls /usr/bin/python3*
 #.....
 
 # install pip for specific version
-sudo apt-get install python3.9-dev python3.9-venv
+sudo apt-get install python3.8-dev python3.8-venv
  
  
  
