@@ -25,3 +25,5 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
 # change setup
 
 sudo update-alternatives --config python
+
+sudo apt-get install python-pip
