@@ -22,6 +22,15 @@ sudo apt-get install build-essential python-dev git
 sudo apt-get install python-pip 
 sudo apt install -y curl gcc make build-essential
 
+# multiple python 
+sudo apt install python3.8
+sudo apt-get install python3.8-venv
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
+
+# remove 
+
+sudo apt remove --purge python3.8
 
 #go installation from zip
 export GOROOT=$HOME/install/go1.X
