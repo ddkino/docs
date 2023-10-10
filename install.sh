@@ -22,11 +22,17 @@ sudo apt-get install build-essential python-dev git
 sudo apt-get install python-pip 
 sudo apt install -y curl gcc make build-essential
 
-# multiple python 
+# multiple python install foreach version
 sudo apt install python3.8
-sudo apt-get install python3.8-venv
+sudo apt-get install python3.8-venv python3.8-pip
+
+
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
+# list
+sudo update-alternatives --list python
+# select
+sudo update-alternatives --config python
 
 # remove 
 
