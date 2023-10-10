@@ -30,9 +30,20 @@ sudo apt-get update
  curl -SL https://github.com/docker/compose/releases/download/v2.14.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
  
  
- # post install
+ # post install + reboot 
  sudo groupadd docker
  sudo usermod -aG docker $USER
+
+ # check
+ groups
+ sudo systemctl status docker
+ # test
+ docker run hello-world
  
+
+#addon
+ sudo chown root:docker /var/run/docker.sock
+ sudo chown -R "$USER":"$USER" $HOME/.docker
+ sudo chmod -R g+rw "$HOME/.docker"
  
  
