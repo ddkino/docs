@@ -1,4 +1,6 @@
 #https://gist.github.com/rajmani1995/cae8a16056e44bd901a6d17d8f1a7fbf
+#keyboard xfce with numbers
+setxkbmap -option caps:shiftlock
 
 #utilities
 sudo apt-get install htop curl vim git git-cola gparted gnome-disk-utility
