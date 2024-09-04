@@ -44,6 +44,13 @@ sudo apt remove --purge python3.8
 export GOROOT=$HOME/install/go1.X
 export PATH=$PATH:$GOROOT/bin
 
+
+#neovim
+
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux64.tar.gz
+
 #multimedia
 vlc
 sudo apt-get install pulseaudio-module-bluetooth
