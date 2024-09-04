@@ -21,7 +21,7 @@ sudo apt-get install oracle-java8-installer
 
 #dev general python
 sudo apt-get install build-essential python-dev git
-sudo apt-get install python-pip 
+sudo apt-get install python3-pip 
 sudo apt install -y curl gcc make build-essential
 
 # multiple python install foreach version
