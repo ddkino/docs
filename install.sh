@@ -92,3 +92,14 @@ sudo apt install curl libcurl3 libgnome-keyring-common libgnome-keyring-dev
 https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+
+#usb boot creator
+
+Unetbootin
+
+https://unetbootin.github.io/linux_download.html
+
+sudo add-apt-repository ppa:gezakovacs/ppa
+sudo apt-get update
+sudo apt-get install unetbootin
+
