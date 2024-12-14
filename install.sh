@@ -95,11 +95,15 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 #usb boot creator
 
-Unetbootin
+sudo apt update
+sudo apt install woeusb woeusb-frontend-wxgtk
 
-https://unetbootin.github.io/linux_download.html
+or
 
-sudo add-apt-repository ppa:gezakovacs/ppa
-sudo apt-get update
-sudo apt-get install unetbootin
+sudo add-apt-repository ppa:tomtomtom/woeusb
+sudo apt update
+sudo apt install woeusb
+
+
+sudo woeusb --device /path/to/windows11.iso /dev/sdb
 
